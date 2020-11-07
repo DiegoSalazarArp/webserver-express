@@ -5,6 +5,8 @@
  * License: https://bootstrapmade.com/license/
  */
 
+
+
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;

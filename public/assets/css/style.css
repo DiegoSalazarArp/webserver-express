@@ -21,7 +21,7 @@ body {
 body::before {
     content: "";
     position: fixed;
-    background: #040404 url("../img/img3.jpg") center no-repeat;
+    /* background: #040404 url("../img/img3.jpg") center no-repeat; */
     background-size: cover;
     left: 0;
     right: 0;
@@ -506,6 +506,7 @@ section .container {
 
 .skills .progress-bar-wrap {
     background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
 }
 
 .skills .progress-bar {
@@ -513,6 +514,7 @@ section .container {
     height: 10px;
     transition: .9s;
     background-color: #18d26e;
+    border-radius: 10px;
 }
 
 
@@ -671,6 +673,7 @@ section .container {
     display: inline-block;
     font-weight: 600;
     margin-bottom: 10px;
+    box-shadow: 5px 5px #18d26e;
 }
 
 .resume .resume-item ul {
@@ -1258,8 +1261,12 @@ p {
     ul {
         height: 100%;
     }
+    .hc {
+        text-align: center;
+    }
 }
 
 .br {
     border-radius: 50%;
+    border: 6px solid rgba(255, 255, 255, 0.12);
 }
